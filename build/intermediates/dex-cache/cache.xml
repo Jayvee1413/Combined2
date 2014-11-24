@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/vincentsantos/AndroidStudioProjects/Combined2/app/build/intermediates/pre-dexed/debug/asmack-2010.05.07-10962208e0a5b342c5d7aeef3443bb6c8b12505c.jar"
+        jar="/Users/vincentsantos/AndroidStudioProjects/Combined2/app/src/main/libs/asmack-2010.05.07.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="78842451dc1b8fec85ab6c16ce80e5f980bf7339"/>
+
+</pre-dex-items>

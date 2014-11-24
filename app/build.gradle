@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 8
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "app.combined2"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets { main { resources.srcDirs = ['src/main/resources', 'src/main/libs/'] } }
+}
+
+dependencies {
+    compile files('src/main/libs/asmack-2010.05.07.jar')
+}
